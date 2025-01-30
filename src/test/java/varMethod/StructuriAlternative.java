@@ -2,6 +2,8 @@ package varMethod;
 
 import org.testng.annotations.Test;
 
+import javax.swing.*;
+
 public class StructuriAlternative {
     // StructuriAlternative = if - then - else;
     // switch-case
@@ -22,6 +24,7 @@ public class StructuriAlternative {
         medodaVerificareNrParPozitiv(-9);
         medodaVerificareNrParPozitiv(0);
 
+        zileSaptamana(5);
 
     }
 
@@ -62,6 +65,37 @@ public class StructuriAlternative {
             }
         } else if (a == 0) {
             System.out.println("Numarul este 0");
+        }
+    }
+
+    // exemplu switch case
+
+    public void zileSaptamana(Integer zi){
+        switch (zi){
+            case 1:
+                System.out.println("Astazi este luni");
+                break;
+            case 2:
+                System.out.println("Astazi este marti");
+                break;
+            case 3:
+                System.out.println("Astazi este miercuri");
+                break;
+            case 4:
+                System.out.println("Astazi este joi");
+                break;
+            case 5:
+                System.out.println("Astazi este vineri");
+                break;
+            case 6:
+                System.out.println("Astazi este sambata");
+                break;
+            case 7:
+                System.out.println("Astazi este duminica");
+                break;
+            default:
+                System.out.println("Nu mai sunt zile");
+
         }
     }
 

@@ -15,37 +15,32 @@ public class Student {
     public Boolean areDiploma;
 
     @Test
-    public void prezentareStudent(){
-        nume="Doe";
-        prenume="Jane";
-        varsta=21;
-        adresa="Horea";
-        inaltime=1.70;
-        greutate=52.0f;
-        sex='F';
-        areDiploma=false;
+    public void prezentareStudent() {
+        nume = "Doe";
+        prenume = "Jane";
+        varsta = 21;
+        adresa = "Horea";
+        inaltime = 1.70;
+        greutate = 52.0f;
+        sex = 'F';
+        areDiploma = false;
 
         System.out.println("Datele studentului sunt:");
-        System.out.println(nume +' ' + prenume +' ' + varsta);
+        System.out.println(nume + ' ' + prenume + ' ' + varsta);
 
         calculMedie();
-
 
     }
 
     @Test
-    public void calculMedie(){
-        Integer nota1=8;
-        Integer nota2=9;
-        Integer nota3=10;
-        Integer medie=(nota1+nota2+nota3)/3;
+    public void calculMedie() {
+        Integer nota1 = 8;
+        Integer nota2 = 9;
+        Integer nota3 = 10;
+        Integer medie = (nota1 + nota2 + nota3) / 3;
 
         System.out.println("Media studentului este: " + medie);
 
-
     }
-
-
-
 
 }
