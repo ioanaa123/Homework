@@ -3,6 +3,8 @@ package varMethod;
 
 import org.testng.annotations.Test;
 
+import java.util.Scanner;
+
 public class Student {
 
     public String nume;
@@ -29,7 +31,6 @@ public class Student {
         System.out.println(nume + ' ' + prenume + ' ' + varsta);
 
         calculMedie();
-
     }
 
     @Test
@@ -40,7 +41,18 @@ public class Student {
         Integer medie = (nota1 + nota2 + nota3) / 3;
 
         System.out.println("Media studentului este: " + medie);
+    }
 
+    @Test
+    public void citireNota(){
+        Scanner scanner = new Scanner(System.in);
+        int nota = scanner.nextInt();
+
+        while (nota>=0 || nota>10) {
+            System.out.println("Te rog introdu o nota valida");
+            nota = scanner.nextInt();
+        }
+        System.out.println("Nota este intre 1 si 10");
     }
 
 }
