@@ -37,11 +37,4 @@ public class BasicMath {
             System.out.println("Division by 0 not possible");
         }
     }
-
-/*    public void passwordCheck(String a) {
-        int sizeOfPassword = a.length();
-        if (sizeOfPassword >= 8) {
-            System.out.println("Weak Password");
-        }
-    }*/
 }
