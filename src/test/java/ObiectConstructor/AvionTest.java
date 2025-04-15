@@ -19,5 +19,10 @@ public class AvionTest {
                 "B-410", 320, "Kerosen", 200);
         avion3.prezentareAvion();
 
+        Avion avion4 = new Avion("Pasageri", "Boeing",
+                "C-150", 100, "Kerosen", 50);
+        avion4.prezentareAvion();
+
+
     }
 }
