@@ -1,4 +1,4 @@
-package OOP.Abstractizare;
+package OOP.Abstractizare.ClaseAbstracte;
 
 import org.testng.annotations.Test;
 

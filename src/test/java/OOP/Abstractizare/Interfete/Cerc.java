@@ -1,7 +1,13 @@
-package OOP.Abstractizare;
+package OOP.Abstractizare.Interfete;
 
-public class Cerc extends FormeGeometrice{
-   private int raza;
+public class Cerc implements FormeGeometrice, FormeGeometrice2{
+
+    private int raza;
+
+        @Override
+    public void deseneaza() {
+        System.out.println("Deseneaza cercul");
+    }
 
     @Override
     public void calcArie() {

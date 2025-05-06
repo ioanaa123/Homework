@@ -26,6 +26,9 @@ public class Persoana {
     // cls abstracta poate fi definita folosind "abstract"
     // o cls abstracta poate contine atribute si met pe langa cls abstracta
 
+    // interfata - ofera raspuns lipsei mostenirii multiple
+    // creaza un protocol pe care clasele trebuie sa le implementeze
+    // interfata contine toate metodele abstacte (e o clasa pur abstracta)
 
 
 
