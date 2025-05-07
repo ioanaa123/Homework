@@ -1,9 +1,9 @@
 package OOP;
 
 public class Angajat extends Persoana implements AngajatInt {
-    String firma;
-    String experienta;
-    Integer zileConcediu;
+    private String firma;
+    private String experienta;
+    private Integer zileConcediu;
 
     public Angajat(String nume, String prenume, Integer varsta, String firma, String experienta, Integer zileConcediu) {
         super(nume, prenume, varsta);

@@ -10,7 +10,7 @@
   INCAPSULARE = procesul prin care tinem departe anumite info ca ele sa nu poata fi modificate
      facem var/ metodele din public in private
      private = access control care restrictioneaza accesul doar in cls respectiva
-     ca sa extragem/ modificam o val a unei var private ne folosim de meth get/ set
+     ca sa extragem/ modificam o valoare a unei var private ne folosim de metodele get/ set
 
   POLIMORFISM = procesul prin care definim mai multe implementari pt o metoda
      de 2 feluri - dinamic(override) si static (overload)
@@ -23,7 +23,7 @@
      clasa abstracta nu poate fi instantiata
      ea poate fi utilizata doar ca si superclasa pt alte clase care extind cls abstracta
      clasa abstracta poate fi definita folosind "abstract"
-     o clasa abstracta poate contine atribute si met pe langa clasa abstracta
+     o clasa abstracta poate contine atribute si metode pe langa clasa abstracta
 
      interfata - ofera raspuns lipsei mostenirii multiple
      creaza un protocol pe care clasele trebuie sa le implementeze

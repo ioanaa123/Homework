@@ -1,0 +1,14 @@
+
+PUBLIC
+    - codul se poate accesa de oriunde si de orice clasa
+
+PRIVATE
+    - codul se poate accesa doar din clasa unde s-a scris codul
+
+PROTECTED
+    - codul se poate accesa doar din pachetul unde s-a scris codul dar si de catre suvclase (mostenire)
+
+DEFAULT
+    - codul se poate accesa doar din pachetul unde s-a scris codul
+
+    daca nu se specifica un modificator de access, se foloseste DEFAULT
