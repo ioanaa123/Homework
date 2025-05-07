@@ -24,5 +24,7 @@ public class OOPtest {
         elena.marire(5);
         elena.marire("EN");
 
+        AngajatStudent marcel = new AngajatStudent("Pop", "Tudor",25,
+                "Endava", "1", 21, "UTCN", 4, false );
     }
 }

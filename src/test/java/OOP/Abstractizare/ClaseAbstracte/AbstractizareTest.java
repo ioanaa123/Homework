@@ -14,7 +14,5 @@ public class AbstractizareTest {
         patrat.setLatura(5);
         patrat.calcArie();
 
-
-
     }
 }

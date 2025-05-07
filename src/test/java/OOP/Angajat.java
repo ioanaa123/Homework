@@ -1,6 +1,6 @@
 package OOP;
 
-public class Angajat extends Persoana{
+public class Angajat extends Persoana implements AngajatInt {
     String firma;
     String experienta;
     Integer zileConcediu;
@@ -12,7 +12,7 @@ public class Angajat extends Persoana{
         this.zileConcediu = zileConcediu;
     }
 
-    public void infoAngajat(){
+    public void infoAngajat() {
         infoPersoana();
         System.out.println("Firma este: " + firma);
         System.out.println("Experienta: " + experienta);
@@ -20,24 +20,24 @@ public class Angajat extends Persoana{
     }
     // suprascriem metida din parinte (polimorfism dinamic)
 
-    public void mananca(){
+    public void mananca() {
         System.out.println("Angajatul mananca cand are pauza de masa");
     }
 
     // polimorfism static
-    public void marire(){
+    public void marire() {
         System.out.println("Nu avem buget de mariri!");
     }
 
-    public void marire(Integer procent){
+    public void marire(Integer procent) {
         System.out.println("Angajatul a primit o marire de " + procent + " %");
     }
 
-    public void marire(String grad){
+    public void marire(String grad) {
         System.out.println("Angajatul a primit gradul " + grad);
     }
 
-    public void promovare(){
+    public void promovare() {
         System.out.println("Angajatul cu numele: " + getNume() + " a fost promovat");
     }
 
@@ -63,5 +63,25 @@ public class Angajat extends Persoana{
 
     public void setZileConcediu(Integer zileConcediu) {
         this.zileConcediu = zileConcediu;
+    }
+
+    @Override
+    public void mergeLaMunca() {
+        System.out.println("Angjatul merge la munca");
+    }
+
+    @Override
+    public void primesteSalariu() {
+        System.out.println("Angajatul primeste salariu");
+    }
+
+    @Override
+    public void mergeInPauza() {
+        System.out.println("Angajatul merge in pauza");
+    }
+
+    @Override
+    public void prezintaDemisia() {
+        System.out.println("Angajatul nu prezinta demisia");
     }
 }

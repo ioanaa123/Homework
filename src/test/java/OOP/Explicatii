@@ -1,0 +1,30 @@
+                OOP
+
+  4 principii: mostenire, incapsulare, polimorfism si abstractizare
+
+  MOSTENIRE: conceptul prin care o clasa (copil_ mosteneste o alta clasa (parinte)
+     in java putem mosteni o singura clasa
+     in momentul in care o clasa mosteneste o alta clasa, cls copil trebuie sa apeleze constructorul din parinte
+     in momentul in care se aplica mostenirea, copilul are vizibilitate asupra variabilelor/ metodelor din parinte
+
+  INCAPSULARE = procesul prin care tinem departe anumite info ca ele sa nu poata fi modificate
+     facem var/ metodele din public in private
+     private = access control care restrictioneaza accesul doar in cls respectiva
+     ca sa extragem/ modificam o val a unei var private ne folosim de meth get/ set
+
+  POLIMORFISM = procesul prin care definim mai multe implementari pt o metoda
+     de 2 feluri - dinamic(override) si static (overload)
+     polimorfismul dinamic = intr-o ierarhie de clase obtinute prin mosternire, o metoda poate avem implemenari diferite
+     polimorfismul static = posibilitatea prin care o metoda are mai multe implementari prin diferentierea nr sau tipul de param
+
+  ABSTRACTIZARE = reducerea unui element complex la un elem mai simplu
+     reducerea completa a implementarii metodelor, lasand doar numele functiilor, param si tipul returnat
+     se poate obt prin cls abstracte sau interfete
+     clasa abstracta nu poate fi instantiata
+     ea poate fi utilizata doar ca si superclasa pt alte clase care extind cls abstracta
+     clasa abstracta poate fi definita folosind "abstract"
+     o clasa abstracta poate contine atribute si met pe langa clasa abstracta
+
+     interfata - ofera raspuns lipsei mostenirii multiple
+     creaza un protocol pe care clasele trebuie sa le implementeze
+     interfata contine toate metodele abstacte (e o clasa pur abstracta)
